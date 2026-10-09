@@ -8,5 +8,8 @@
     "**/app/**/template.js": "${dirname(1)}/${dirname} - template.js",
     "**/app/**/default.js": "${dirname(1)}/${dirname} - default.js",
     "**/app/**/route.js": "${dirname(1)}/${dirname} - route.js"
-  }
+  },
+  "github-actions.workflows.pinned.workflows": [
+    ".github/workflows/deploy.yaml"
+  ]
 }
