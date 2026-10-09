@@ -1,6 +1,6 @@
 {
     "$schema": "node_modules/wrangler/config-schema.json",
-    "name": "nextjs auto-deploy",
+    "name": "nextjs-auto-deploy",
     "main": ".open-next/worker.js",
     "compatibility_date": "2026-10-9",
     "compatibility_flags": [
