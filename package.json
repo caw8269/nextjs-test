@@ -9,6 +9,10 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "cloudflare-build": "opennextjs-cloudflare build",
+    "preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
+    "deploy": "opennextjs-cloudflare build && wrangler deploy",
+    "cf-typegen": "wrangler types --env-interface CloudflareEnv cloudflare-env.d.ts",
     "start": "next start",
     "lint": "eslint",
     "lint:fix": "eslint --fix"
@@ -17,5 +21,8 @@
     "next": "^16.4.0",
     "react": "^19.3.0",
     "react-dom": "^19.3.0"
+  },
+  "devDependencies": {
+    "wrangler": "^4.149.0"
   }
 }
