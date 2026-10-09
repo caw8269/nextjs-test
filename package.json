@@ -1,0 +1,21 @@
+{
+  "name": "nextjs-test-site",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Diamondgaming82",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "lint:fix": "eslint --fix"
+  },
+  "dependencies": {
+    "next": "^16.4.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  }
+}

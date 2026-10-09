@@ -1,0 +1,218 @@
+/*
+========================================
+reset
+========================================
+*/
+*, *::before, *::after{
+    -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    padding-left: 3.125%;
+    padding-right: 3.125%;
+    width: 100%;
+}
+
+/*
+========================================
+Typography
+========================================
+*/
+
+h1, h3, h4, h5, p {
+    margin-bottom: 1.85%;
+}
+/*
+========================================
+Clearfix
+========================================
+*/
+.group::before,
+.group::after {
+    content: "";
+    display: table;
+}
+.group::after {
+    clear: both;
+}
+.group {
+    clear: both;
+    zoom: 1;
+}
+/*
+========================================
+Primary header
+========================================
+*/
+.logo {
+    border-top: 4px solid #648880;
+    float: left;
+    font-size: 48px;
+    font-weight: 100;
+    letter-spacing: .5px;
+    line-height: 44px;
+    padding: 4.1% 0 2.29% 0;
+    text-transform: uppercase;
+}
+/*
+========================================
+Primary Footer
+========================================
+*/
+.primary-footer {
+    color: #648880;
+    font-size: 14px;
+    padding-bottom: 4.1%;
+    padding-top: 4.1%;
+}
+.primary-footer small {
+    float: left;
+    font-weight: 400;
+}
+
+/*
+========================================
+Custom Styles
+========================================
+*/
+body {
+    background: #293f50;
+    color: #888;
+    font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+h1, h2, h3, h4 {
+    color: #648880;
+}
+h1, h2 {
+    line-height: 4.1%;
+}
+h1 {
+    font-size: 3.75%;
+}
+h2 {
+    font-size: clamp(.5px, 2.5vw, 5rem);
+
+}
+h3 {
+    font-size: clamp(.5px, 2.73vw, 5rem);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+h4 {
+    font-size: 18px;
+}
+h5 {
+    color: #a9b2b9;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+strong {
+    font-weight: 400;
+}
+cite, em {
+    font-style: italic;
+}
+/*
+========================================
+links
+*/
+a {
+    color: #648880;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #a9b2b9;
+}
+p a {
+    border-bottom: 1px solid #dfe2e5;
+}
+
+/*
+========================================
+special styles
+========================================
+*/
+.tagline {
+    margin: 6.87% 0 2.29% 0;
+    text-align: right;
+}
+.primary-nav {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+}
+.nav {
+    text-align: right;
+    break-inside: avoid;
+}
+.primary-header a,
+.primary-footer a {
+    color: #fff;
+}
+.primary-header a:hover,
+.primary-footer a:hover {
+    color: #648880;
+}
+
+/*
+========================================
+leads
+========================================
+*/
+.nav li {
+    display: inline-block;
+    margin: 0 0.92%;
+    vertical-align: 0;
+}
+
+/*
+========================================
+Buttons
+========================================
+*/
+.btn {
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-box;
+    font-weight: 400;
+    letter-spacing: .5px;
+    margin: 0;
+    text-transform: uppercase;
+}
+.btn-alt {
+    border: 1px solid #dff;
+    padding: 1.04% ;
+}
+.btn-alt:hover {
+    background: #fff;
+    color: #648880;
+}
+
+/*
+========================================
+Home
+========================================
+*/
+.hero {
+    color: #fff;
+    line-height: 44px;
+    padding: 2.03% 8.33% 6.11% 8.33%;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: clamp(.5px, 10vw, 36px);
+}
+
+.hero p {
+    font-size: clamp(.5px, 4vw, 24px);
+    font-weight: 100;
+}
